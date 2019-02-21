@@ -1,0 +1,31 @@
+{
+  "name": "amenoha",
+  "version": "1.0.0",
+  "description": "昨日の天気と比べてどうすれば過ごしやすいか教えてくれるアプリ",
+  "author": "Yuki-Sakaguchi",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/pwa": "^3.0.0-beta.6",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.9",
+    "nuxt-sass-resources-loader": "^2.0.5",
+    "sass-loader": "^7.1.0",
+    "vue-jest": "^3.0.2"
+  }
+}
